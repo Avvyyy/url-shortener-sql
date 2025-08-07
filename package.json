@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener-sql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avvyyy/url-shortener-sql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avvyyy/url-shortener-sql/issues"
+  },
+  "homepage": "https://github.com/Avvyyy/url-shortener-sql#readme",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "ejs-layout": "^1.0.15",
+    "express": "^5.1.0",
+    "joi": "^18.0.0",
+    "mysql2": "^3.14.3"
+  }
+}
